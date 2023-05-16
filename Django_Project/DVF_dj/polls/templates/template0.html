@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>My test Page</title>
+    </head>
+    <body>
+    <p>Choose a departement</p>
+    {{plot_html|safe}}
+    <label for=dep-select>Choose a departement</label>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit">
+    </form>        
+    </body>
+</html>
+
+
+

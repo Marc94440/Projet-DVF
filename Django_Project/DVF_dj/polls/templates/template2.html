@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>My test Page1</title>
+    </head>
+    <body>
+    <p>Choose a region</p>        
+    {{plot_html|safe}}
+    
+    <form action="apply_Region">
+    <label for=region-select>Choose a region</label>
+    <select name="region" id="region-select" onchange='if(this.value!=0){this.form.submit();}0'>
+        <option value="0">--Please choose a region--</option>
+        <option value="Auvergne-Rhône-Alpes">Auvergne-Rhône-Alpes</option>
+        <option value="Bourgogne-Franche-Comté">Bourgogne-Franche-Comté</option>
+        <option value="Bretagne">Bretagne</option>
+        <option value="Centre-Val de Loire">Centre-Val de Loire</option>
+        <option value="Corse">Corse</option>
+        <option value="Grand Est">Grand Est</option>
+        <option value="Hauts-de-France">Hauts-de-France</option>
+        <option value="Ile-de-France">Île-de-France</option>
+        <option value="Normandie">Normandie</option>
+        <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+        <option value="Occitanie">Occitanie</option>            
+        <option value="Pays de la Loire">Pays de la Loire</option>
+        <option value="Provence-Alpes-Côte d'Azur">Provence-Alpes-Côte d'Azur</option>
+        <option value="Outre-Mer">Outre-Mer</option>
+    </form>
+    </body>
+</html>
+
+
+
