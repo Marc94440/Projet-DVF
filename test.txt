@@ -1,3 +1,0 @@
-Empty DataFrame
-Columns: [No disposition, Date mutation, Nature mutation, Valeur fonciere, No voie, B/T/Q, Type de voie, Code voie, Voie, Code postal, Commune, Code departement, Code commune, Prefixe de section, Section, No plan, No Volume, 1er lot, Surface Carrez du 1er lot, 2eme lot, Surface Carrez du 2eme lot, 3eme lot, Surface Carrez du 3eme lot, 4eme lot, Surface Carrez du 4eme lot, 5eme lot, Surface Carrez du 5eme lot, Nombre de lots, Code type local, Type local, Surface reelle bati, Nombre pieces principales, Nature culture, Nature culture speciale, Surface terrain, sort_val]
-Index: []
